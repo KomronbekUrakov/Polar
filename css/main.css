@@ -377,6 +377,7 @@
 
 /* product section start  */
 .product__section {
+  padding-bottom: 149px;
 }
 .product {
   text-align: center;
@@ -389,10 +390,6 @@
   font-weight: 600;
   line-height: normal;
   margin-bottom: 64px;
-}
-.product__option {
-}
-.option {
 }
 .option__list {
   display: flex;
@@ -427,14 +424,11 @@
   justify-content: space-between;
   margin-bottom: 32px;
 }
-.product__card:nth-child(even){
+.product__card:nth-child(even) {
   flex-direction: row-reverse;
 }
-.card2{
+.card2 {
   margin-bottom: 117px;
-}
-.card3{
-  
 }
 .product__content {
   text-align: left;
@@ -515,31 +509,59 @@
     background-color: #fafafa;
   }
 }
-.card3 {
-}
-.product__content {
-
-}
-.AdeleA.McNeill {
-  width: 259px;
+.productIntro {
+  max-width: 259px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
+  gap: 21px;
+  margin-bottom: 46px;
 }
-.AdeleA.McNeill-content {
-  width: 259px;
+.productIntro-content {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 5px;
 }
-.AdeleA.McNeill-title {
+.productIntro-title {
+  color: #000;
+  display: inline;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.AdeleA.McNeill-text {
+.productIntro-text {
+  color: #000;
+  display: inline;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+.product__content-text{
+  max-width: 350px;
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 30px;
 }
 .product__slider {
-}
-.left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
 }
 .Man {
+  border-radius: 50%;
 }
 /* product section end  */
